@@ -1,0 +1,20 @@
+{
+  "name": "reps_demo/helloworld",
+  "description": "test the private repository",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "yewei.zhu",
+      "email": "yewei.zhu@ofashion.com.cn"
+    }
+  ],
+  "require":{
+    "php":">=5.4.0",
+    "phpunit/php-timer":"*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Hello\\": "Hello/"
+    }
+  }
+}
